@@ -9,6 +9,7 @@ public class Product extends Page{
     final String productedAdded = "Product added";
 
     public void addToCart(){
+        wait.until(ExpectedConditions.visibilityOfElementLocated(ADD_TO_CART));
         driver.findElement(ADD_TO_CART).click();
     }
 
