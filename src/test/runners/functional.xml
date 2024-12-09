@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Full" >
+    <test name="Smoke" >
+        <packages>
+            <package name="registration"/>
+        </packages>
+    </test>
+    <test name="Functional">
+        <packages>
+            <package name="functional"/>
+        </packages>
+    </test>
+</suite>

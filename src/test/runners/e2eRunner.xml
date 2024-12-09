@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="e2eRunner">
+    <test name="e2e">
+        <packages>
+            <package name="e2e"/>
+        </packages>
+    </test>
+</suite>
